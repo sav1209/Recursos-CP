@@ -356,6 +356,7 @@
       <button class="nav-btn" onclick="showPage('sets')">Sets de Entrenamiento</button>
       <button class="nav-btn" onclick="showPage('herramientas')">Herramientas</button>
       <button class="nav-btn" onclick="showPage('editores')">Editores</button>
+      <button class="nav-btn" onclick="showPage('comunidad')">Comunidad</button>
     </nav>
   </div>
 </header>
@@ -952,6 +953,74 @@
     </div>
   </div>
 
+  <!-- COMUNIDAD HISPANA -->
+  <div id="comunidad" class="page">
+    <div class="section-header">
+      <div class="section-tag">Comunidad</div>
+      <h2 class="section-title">Recursos de la Comunidad Hispana</h2>
+      <p class="section-subtitle">Recursos públicos de clubes de Programación Competitiva de universidades de habla hispana.</p>
+    </div>
+    <div class="cards-grid">
+
+      <div class="card al-mauve">
+        <div class="card-icon i-mauve">🏫</div>
+        <div class="card-title">Club de Algoritmia de la Universidad de Sevilla<span class="lang-tag c-mauve">(España)</span></div>
+        <a class="card-link" href="https://clubalgoritmiaus.es/" target="_blank">Sitio web ↗</a>
+      </div>
+
+      <div class="card al-red">
+        <div class="card-icon i-red">🏫</div>
+        <div class="card-title">Club de Algoritmia ESCOM <span class="lang-tag" style="color:var(--red)">(México)</span></div>
+        <a class="card-link" style="color:var(--red)" href="https://youtube.com/@algoritmiaescom" target="_blank">YouTube ↗</a>
+      </div>
+
+      <div class="card al-blue">
+        <div class="card-icon i-blue">🏫</div>
+        <div class="card-title">CPC UADY <span class="lang-tag c-blue">(México)</span></div>
+        <a class="card-link" href="https://sites.google.com/view/cpcfmat-uady" target="_blank">Sitio web ↗</a>
+        <a class="card-link" style="color:var(--red)" href="https://www.youtube.com/@cpcuady" target="_blank">YouTube ↗</a>
+      </div>
+
+      <div class="card al-green">
+        <div class="card-icon i-green">🏫</div>
+        <div class="card-title">Club Algoritmia CUCEI CAC <span class="lang-tag c-green">(México)</span></div>
+        <a class="card-link" style="color:var(--red)" href="https://www.youtube.com/@clubalgoritmiacuceicac6204" target="_blank">YouTube ↗</a>
+      </div>
+
+      <div class="card al-peach">
+        <div class="card-icon i-peach">🏫</div>
+        <div class="card-title">Club De Algoritmia BUAP <span class="lang-tag c-peach">(México)</span></div>
+        <a class="card-link" style="color:var(--red)" href="https://youtube.com/@cabuap" target="_blank">YouTube ↗</a>
+      </div>
+
+      <div class="card al-teal">
+        <div class="card-icon i-teal">🏫</div>
+        <div class="card-title">Club de Algoritmia ESFM <span class="lang-tag c-teal">(México)</span></div>
+        <a class="card-link" style="color:var(--red)" href="https://www.youtube.com/@clubdealgoritmiaesfm3307" target="_blank">YouTube ↗</a>
+      </div>
+
+      <div class="card al-lavend">
+        <div class="card-icon i-lavend">🏫</div>
+        <div class="card-title">CPC Gallos <span class="lang-tag" style="color:var(--lavender)">(México)</span></div>
+        <a class="card-link" href="https://cpc-gallos.github.io/" target="_blank">Sitio web ↗</a>
+      </div>
+
+      <div class="card al-yellow">
+        <div class="card-icon i-yellow">🏫</div>
+        <div class="card-title">Club de Algoritmos de Sinaloa <span class="lang-tag c-yellow">(México)</span></div>
+        <a class="card-link" href="https://algoritmos.club/" target="_blank">Sitio web ↗</a>
+      </div>
+
+      <div class="card al-sapphr">
+        <div class="card-icon i-sapphr">🏫</div>
+        <div class="card-title">CPC UAEH <span class="lang-tag c-sapphr">(México)</span></div>
+        <a class="card-link" style="color:var(--red)" href="https://www.youtube.com/@cpcuaeh" target="_blank">YouTube ↗</a>
+        <a class="card-link" href="https://cpcuaeh-judge.dynns.com/" target="_blank">Juez ↗</a>
+      </div>
+
+    </div>
+  </div>
+
 </main>
 
 <footer>
@@ -959,7 +1028,7 @@
 </footer>
 
 <script>
-  const pageIds = ['inicio','material','plataformas','sets','herramientas','editores'];
+  const pageIds = ['inicio','material','plataformas','sets','herramientas','editores','comunidad'];
   const btns    = document.querySelectorAll('.nav-btn');
 
   function showPage(id) {
